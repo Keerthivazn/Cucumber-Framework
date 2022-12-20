@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="6" time="170.245542">
+<testcase classname="To Validate The Basic Functionality Of The Facebook Page" name="To Validate Login With Invalid Username and valid Password" time="30.127626">
+<skipped><![CDATA[Given User has to Launch The Browser and Hit the Facebook Url Page..........passed
+When User has to Enter the Invalid Username in Email text Field.............passed
+And User has to Enter the Valid Password in Password Text field.............passed
+And User has to Click the Login button......................................passed
+And user has to navigate to home page.......................................undefined
+Then User has to  close the Browser.........................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="To Validate The Basic Functionality Of The Facebook Page" name=":  To validate login with valid username and invalid password" time="29.960864">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(ScenariosDefnition.java:30)&#13;&#10;&#9;at ✽.To pass the Invalid password in the &quot;keerthijava&quot; password text field(file:src/test/resources/Feature%20File/Facebook.feature:20)&#13;&#10;"><![CDATA[Given To launch the chrome browser and hit the url..........................passed
+When To pass the valid username in the"keerthi123@gmail.com" username text field.passed
+And To pass the Invalid password in the "keerthijava" password text field...failed
+And To click the login button...............................................skipped
+Then to close the chrome browser............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(ScenariosDefnition.java:30)
+	at ✽.To pass the Invalid password in the "keerthijava" password text field(file:src/test/resources/Feature%20File/Facebook.feature:20)
+]]></failure>
+</testcase>
+<testcase classname="To Validate The Basic Functionality Of The Facebook Page" name=":  To validate login with valid username and invalid password 2" time="26.045305">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(ScenariosDefnition.java:30)&#13;&#10;&#9;at ✽.To pass the Invalid password in the &quot;madhaqnselenium&quot; password text field(file:src/test/resources/Feature%20File/Facebook.feature:20)&#13;&#10;"><![CDATA[Given To launch the chrome browser and hit the url..........................passed
+When To pass the valid username in the"madhan123@gmail.com" username text field.passed
+And To pass the Invalid password in the "madhaqnselenium" password text field.failed
+And To click the login button...............................................skipped
+Then to close the chrome browser............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(ScenariosDefnition.java:30)
+	at ✽.To pass the Invalid password in the "madhaqnselenium" password text field(file:src/test/resources/Feature%20File/Facebook.feature:20)
+]]></failure>
+</testcase>
+<testcase classname="To Validate The Basic Functionality Of The Facebook Page" name=":  To validate login with valid username and invalid password 3" time="20.543425">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(ScenariosDefnition.java:30)&#13;&#10;&#9;at ✽.To pass the Invalid password in the &quot;fahadhcucumber&quot; password text field(file:src/test/resources/Feature%20File/Facebook.feature:20)&#13;&#10;"><![CDATA[Given To launch the chrome browser and hit the url..........................passed
+When To pass the valid username in the"fahadh123@gmail.com" username text field.passed
+And To pass the Invalid password in the "fahadhcucumber" password text field.failed
+And To click the login button...............................................skipped
+Then to close the chrome browser............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(ScenariosDefnition.java:30)
+	at ✽.To pass the Invalid password in the "fahadhcucumber" password text field(file:src/test/resources/Feature%20File/Facebook.feature:20)
+]]></failure>
+</testcase>
+<testcase classname="To validate the Login functionality of the Amazon Application" name="To pass login with Valid username and Valid password" time="29.010804">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.AmazonDefinition.toPassTheValidPasswordInTheCorrespondingField(AmazonDefinition.java:37)&#13;&#10;&#9;at ✽.To pass the valid password in the corresponding field(file:src/test/resources/Feature%20File/amazon.feature:11)&#13;&#10;"><![CDATA[Given User To  Launch browser and hit url of the application................passed
+When To pass the valid username in the corresponding field..................passed
+And To click the ctnue button...............................................passed
+And To pass the valid password in the corresponding field...................failed
+And To click the Signin button..............................................skipped
+Then To close the browser...................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.AmazonDefinition.toPassTheValidPasswordInTheCorrespondingField(AmazonDefinition.java:37)
+	at ✽.To pass the valid password in the corresponding field(file:src/test/resources/Feature%20File/amazon.feature:11)
+]]></failure>
+</testcase>
+<testcase classname="To validate the Login functionality of the Amazon Application" name="To pass login with Blank username and Blank password" time="34.557518">
+<system-out><![CDATA[Given User To  Launch browser and hit url of the application................passed
+When To pass the balnk username in the corresponding field..................passed
+And To click the continue button............................................passed
+And To pass the blank password in the corresponding field...................passed
+And To click the Signin button in the application...........................passed
+Then To close the browser of amazon.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

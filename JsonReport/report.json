@@ -1,0 +1,660 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-19T11:42:57.645Z",
+        "line": 4,
+        "name": "To Validate Login With Invalid Username and valid Password",
+        "description": "",
+        "id": "to-validate-the-basic-functionality-of-the-facebook-page;to-validate-login-with-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29099878400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to Launch The Browser and Hit the Facebook Url Page",
+            "match": {
+              "location": "FBdefinition.user_has_to_Launch_The_Browser_and_Hit_the_Facebook_Url_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367818300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to Enter the Invalid Username in Email text Field",
+            "match": {
+              "location": "FBdefinition.user_has_to_Enter_the_Invalid_Username_in_Email_text_Field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "keerthi123@gmail.com",
+                  "java123@gmail.com",
+                  "selenium123@gmail.com",
+                  "manual123@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 336465600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User has to Enter the Valid Password in Password Text field",
+            "match": {
+              "location": "FBdefinition.user_has_to_Enter_the_Valid_Password_in_Password_Text_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "keerthi123",
+                  "java123",
+                  "selenium123",
+                  "cucumber123"
+                ]
+              },
+              {
+                "cells": [
+                  "framework",
+                  "testNG",
+                  "Junit",
+                  "pom"
+                ]
+              },
+              {
+                "cells": [
+                  "dataprovider",
+                  "parameters",
+                  "parallel",
+                  "execution"
+                ]
+              },
+              {
+                "cells": [
+                  "grouping",
+                  "rerun",
+                  "crossbrowser",
+                  "testing"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267819100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User has to Click the Login button",
+            "match": {
+              "location": "FBdefinition.user_has_to_Click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user has to navigate to home page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 862700,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User has to  close the Browser",
+            "match": {
+              "location": "FBdefinition.user_has_to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-19T11:43:27.986Z",
+        "line": 26,
+        "name": ":  To validate login with valid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-basic-functionality-of-the-facebook-page;:--to-validate-login-with-valid-username-and-invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29774534100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To launch the chrome browser and hit the url",
+            "match": {
+              "location": "ScenariosDefnition.to_launch_the_chrome_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168580100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To pass the valid username in the\"keerthi123@gmail.com\" username text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"keerthi123@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "ScenariosDefnition.to_pass_the_valid_username_in_the_username_text_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(ScenariosDefnition.java:30)\r\n\tat ✽.To pass the Invalid password in the \"keerthijava\" password text field(file:src/test/resources/Feature%20File/Facebook.feature:20)\r\n",
+              "duration": 6353400,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "To pass the Invalid password in the \"keerthijava\" password text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"keerthijava\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 732400,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "To click the login button",
+            "match": {
+              "location": "ScenariosDefnition.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 768900,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "to close the chrome browser",
+            "match": {
+              "location": "ScenariosDefnition.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-19T11:43:57.951Z",
+        "line": 27,
+        "name": ":  To validate login with valid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-basic-functionality-of-the-facebook-page;:--to-validate-login-with-valid-username-and-invalid-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25860265600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To launch the chrome browser and hit the url",
+            "match": {
+              "location": "ScenariosDefnition.to_launch_the_chrome_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176643500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To pass the valid username in the\"madhan123@gmail.com\" username text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"madhan123@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "ScenariosDefnition.to_pass_the_valid_username_in_the_username_text_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(ScenariosDefnition.java:30)\r\n\tat ✽.To pass the Invalid password in the \"madhaqnselenium\" password text field(file:src/test/resources/Feature%20File/Facebook.feature:20)\r\n",
+              "duration": 3108000,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "To pass the Invalid password in the \"madhaqnselenium\" password text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"madhaqnselenium\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 457100,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "To click the login button",
+            "match": {
+              "location": "ScenariosDefnition.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434900,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "to close the chrome browser",
+            "match": {
+              "location": "ScenariosDefnition.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-19T11:44:23.998Z",
+        "line": 28,
+        "name": ":  To validate login with valid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-basic-functionality-of-the-facebook-page;:--to-validate-login-with-valid-username-and-invalid-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20367543100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To launch the chrome browser and hit the url",
+            "match": {
+              "location": "ScenariosDefnition.to_launch_the_chrome_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168348600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To pass the valid username in the\"fahadh123@gmail.com\" username text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fahadh123@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "ScenariosDefnition.to_pass_the_valid_username_in_the_username_text_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(ScenariosDefnition.java:30)\r\n\tat ✽.To pass the Invalid password in the \"fahadhcucumber\" password text field(file:src/test/resources/Feature%20File/Facebook.feature:20)\r\n",
+              "duration": 2373500,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "To pass the Invalid password in the \"fahadhcucumber\" password text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fahadhcucumber\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ScenariosDefnition.to_pass_the_Invalid_password_in_the_password_text_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 408000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "To click the login button",
+            "match": {
+              "location": "ScenariosDefnition.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 481000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "to close the chrome browser",
+            "match": {
+              "location": "ScenariosDefnition.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate The Basic Functionality Of The Facebook Page",
+    "description": "",
+    "id": "to-validate-the-basic-functionality-of-the-facebook-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20File/Facebook.feature",
+    "tags": [
+      {
+        "name": "@feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 27143452200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User To  Launch browser and hit url of the application",
+            "match": {
+              "location": "AmazonDefinition.user_To_Launch_browser_and_hit_url_of_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-19T11:44:44.543Z",
+        "line": 7,
+        "name": "To pass login with Valid username and Valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-amazon-application;to-pass-login-with-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 298878600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass the valid username in the corresponding field",
+            "match": {
+              "location": "AmazonDefinition.toPassTheValidUsernameInTheCorrespondingField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1554352200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the ctnue button",
+            "match": {
+              "location": "AmazonDefinition.toClickTheCtnueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.AmazonDefinition.toPassTheValidPasswordInTheCorrespondingField(AmazonDefinition.java:37)\r\n\tat ✽.To pass the valid password in the corresponding field(file:src/test/resources/Feature%20File/amazon.feature:11)\r\n",
+              "duration": 2525600,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "To pass the valid password in the corresponding field",
+            "match": {
+              "location": "AmazonDefinition.toPassTheValidPasswordInTheCorrespondingField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 728100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "To click the Signin button",
+            "match": {
+              "location": "AmazonDefinition.toClickTheSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 644100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "To close the browser",
+            "match": {
+              "location": "AmazonDefinition.toCloseTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature2"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29400636800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User To  Launch browser and hit url of the application",
+            "match": {
+              "location": "AmazonDefinition.user_To_Launch_browser_and_hit_url_of_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-19T11:45:13.556Z",
+        "line": 15,
+        "name": "To pass login with Blank username and Blank password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-amazon-application;to-pass-login-with-blank-username-and-blank-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 311835300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To pass the balnk username in the corresponding field",
+            "match": {
+              "location": "AmazonDefinition.toPassTheBalnkUsernameInTheCorrespondingField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1275698900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To click the continue button",
+            "match": {
+              "location": "AmazonDefinition.toClickTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 260402400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To pass the blank password in the corresponding field",
+            "match": {
+              "location": "AmazonDefinition.toPassTheBlankPasswordInTheCorrespondingField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3044577000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To click the Signin button in the application",
+            "match": {
+              "location": "AmazonDefinition.toClickTheSigninButtonInTheApplication()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257917700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To close the browser of amazon",
+            "match": {
+              "location": "AmazonDefinition.toCloseTheBrowserOfAmazon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature2"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Login functionality of the Amazon Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-the-amazon-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20File/amazon.feature",
+    "tags": [
+      {
+        "name": "@feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
